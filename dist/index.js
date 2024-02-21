@@ -6,7 +6,7 @@ const car = {
     model: 'GX550',
     generation: 'III',
     country: 'Japan',
-    price: 60000,
+    price: 60_000,
     color: 'white',
     rating: [
         ['performance', 9.0],
