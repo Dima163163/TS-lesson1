@@ -7,8 +7,7 @@ const totalVerdict = (car: {
   country: string,
   price: number,
   color: string,
-  rating: [string, number][
-    ]
+  rating: [string, number][]
 }) => {
   const sumRating = car.rating.reduce((acc, item) => {
     console.log(acc, item);

@@ -5,7 +5,15 @@ export const car: {
   country: string,
   price: number,
   color: string,
-  rating: [string, number][
+  rating: [
+      [string, number],
+      [string, number],
+      [string, number],
+      [string, number],
+      [string, number],
+      [string, number],
+      [string, number],
+      [string, number],
     ]
 } = {
   brand: 'Lexus',
