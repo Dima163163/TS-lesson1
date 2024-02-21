@@ -5,16 +5,7 @@ export const car: {
   country: string,
   price: number,
   color: string,
-  rating: [
-      [string, number],
-      [string, number],
-      [string, number],
-      [string, number],
-      [string, number],
-      [string, number],
-      [string, number],
-      [string, number],
-    ]
+  rating: [string, number][]
 } = {
   brand: 'Lexus',
   model: 'GX550',
